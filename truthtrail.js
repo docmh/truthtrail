@@ -163,7 +163,7 @@ This time you want to formulate a statement that is ${statementCorrect ? "true" 
     messages = [
       {"role": "system", "content": `You are a professor of community psychology.
 Your employee is currently preparing true/false statements for an exam.
-She uses the following reference text as context:
+They uses the following reference text as context:
 
 ###### Begin of Reference Text #####
 
@@ -171,7 +171,7 @@ ${selectedSection}
 
 ###### End of Reference Text #####
 
-She made the following statement:`}
+They made the following statement:`}
   ];
     messages.push({"role": "user", "content": quiz});
     messages.push({"role": "system", "content": "Please judge whether the statement is true or false based on the reference text. Write \"True\" if it is true and write \"False\" if it is false."});
@@ -179,7 +179,7 @@ She made the following statement:`}
 
     messages = [
       {"role": "system", "content": `You are a professor of community psychology.
-Mike is currently working on the true/false statements on your exam.
+User is currently working on the true/false statements on your exam.
 These statements are based on the following reference text:
 
 ###### Begin of Reference Text #####
@@ -188,10 +188,10 @@ ${selectedSection}
 
 ###### End of Reference Text #####
 
-Mike is currently working on the following statement:`}
+User is currently working on the following statement:`}
   ];
     messages.push({"role": "assistant", "content": quiz});
-    messages.push({"role": "system", "content": `Please wait until Mike has assessed the statement. Then give him feedback as to whether his assessment is correct and briefly explain why the statement is true or false.`});
+    messages.push({"role": "system", "content": `Please wait until User has assessed the statement. Then give them feedback as to whether their assessment is correct and briefly explain why the statement is true or false.`});
 
     res.json({
       statementCorrect,
