@@ -26,7 +26,7 @@ You can override the points that were given to you by the program, if you think 
 
 You also can reset the points and start over.
 
-### Markdown file 📄
+### Markdown File 📄
 
 The markdown file can be formatted as any usual [markdown](https://www.markdownguide.org/basic-syntax/) file, but with one exception according to the sections: Do prevent to use one subsection without a headline at the beginning of a section if this section also contains a subsection with a headline. The application will otherwise oversee the first subsection and not include it in the selection process.
 
@@ -68,7 +68,7 @@ In `truthtrail.js`, the prompts to instruct the AI to generate a new statement a
 
 TruthTrail has a server and a client part. The server part is written in TypeScript and the client part is a simple HTML file with JavaScript. 
 
-### Installation from source 📦
+### Installation From Source 📦
 
 To install the server part, you need to have Node.js installed. Then you can install the server part by setting your working directory to the directory where the `truthtrail.js` file is located and then running the following command in the terminal:
 
@@ -76,7 +76,7 @@ To install the server part, you need to have Node.js installed. Then you can ins
 npm install
 ```
 
-### Secrets and API key 🔑
+### OpenAI API Key 🔑
 
 TruthTrail uses the OpenAI API to generate new statements. You need to use a `.env` file to provide the API key. The `.env` file should be located in the same directory as the `truthtrail.js` file. The content of the `.env` file should look like this:
 
