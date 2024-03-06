@@ -69,6 +69,10 @@ OPENAI_API_KEY="<your-api-key>"
 
 You can get an API key from OpenAI by signing up for their service.
 
+### Progressive Web App 📱
+
+The client part is a Progressive Web App (PWA). You can install it on your device by opening the client in your web browser and then clicking on the install button in the address bar.
+
 ## Usage 🕹️
 
 To start the server part, you need to set your working directory to the directory where the `truthtrail.js` file is located. Then you can start the server by running the following command in the terminal:
