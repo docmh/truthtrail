@@ -49,7 +49,7 @@ Text for Subsection 1.1
 Text for Subsection 1.2
 ```
 
-The markdown file in the app is referenced to as `source.md` at the same level as the server file `truthtrail.js`. You can change the file path in the server file if you want to use another file. The file, given with the source code is a sample file with some sections and subsections about the field of Community Psychology.
+The markdown file in the app is referenced to as `source.md` at the same level as the server file `truthtrail.js`. You can change the file path in the server file if you want to use another file. The file, given with the source code, is a sample file with some sections and subsections about the field of Community Psychology.
 
 ### Prompting the Professor 🧑‍🏫
 
