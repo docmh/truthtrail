@@ -66,7 +66,7 @@ In `truthtrail.js`, the prompts to instruct the AI to generate a new statement a
 
 ## Installation 🛠️
 
-TruthTrail has a server and a client part. The server part is written in TypeScript and the client part is a simple HTML file with JavaScript. 
+TruthTrail has a server and a client part. The server part is a Node.js script and the client part is a simple HTML file with JavaScript. 
 
 ### Installation From Source 📦
 
