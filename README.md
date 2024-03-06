@@ -33,19 +33,28 @@ The markdown file can be formatted as any usual markdown file, but with one exce
 ✅ **Do:**
 ```markdown
 # Section 1
+
 ## Subsection 1.1
+
 Text for Subsection 1.1
+
 ## Subsection 1.2
+
 Text for Subsection 1.2
 ```
 
 ❌ **Don't:**
 ```markdown
 # Section 1
+
 Text for Section 1 <-- prevent this, because the application will oversee it
+
 ## Subsection 1.1
+
 Text for Subsection 1.1
+
 ## Subsection 1.2
+
 Text for Subsection 1.2
 ```
 
