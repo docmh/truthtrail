@@ -23,7 +23,7 @@ async function textGeneration(messages) {
     let result = "";
 	try {
 		const response = await openai.chat.completions.create({
-            model: "gpt-4",
+            model: "gpt-4-turbo-preview",
             messages: messages,
             max_tokens: 256,
             n: 1
