@@ -51,6 +51,14 @@ If you add a new section to the markdown file, the application will automaticall
 
 TruthTrial has a server and a client part. The server part is written in TypeScript and the client part is a simple HTML file with JavaScript. 
 
+### Installation from source 📦
+
+To install the server part, you need to have Node.js installed. Then you can install the server part by running the following command in the terminal:
+
+```bash
+npm install
+```
+
 ### Secrets and API key 🔑
 
 TruthTrial uses the OpenAI API to generate new statements. You need to use a `.env` file to provide the API key. The `.env` file should look like this:
@@ -60,14 +68,6 @@ OPENAI_API_KEY="<your-api-key>"
 ```
 
 You can get an API key from OpenAI by signing up for their service.
-
-### Installation from source 📦
-
-To install the server part, you need to have Node.js installed. Then you can install the server part by running the following command in the terminal:
-
-```bash
-npm install -g truthtrial
-```
 
 ## Usage 🕹️
 
