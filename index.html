@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <link rel="icon" href="/lowres.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <title>TruthTrail</title>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <p><span id="total">Gesamt: 0</span>, <span id="correct">Richtig: 0 (0 %)</span> <button onclick="incrementCorrect()">+</button> <button onclick="decrementCorrect()">-</button> <button onclick="resetProgress()">0</button></p>
+    <p id="timer">Zeit: 00:00:00</p>
+    <p>Note: <b id="grade">5,0</b> <span id="border">(0 bis 0 Punkte)</span></p>
+    <hr>
+    <p id="quiz-question"></p>
+    <div id="buttonContainer" class="button-container">
+        <button id="btnWahr" onclick="submitAnswer('Wahr')">Wahr</button>
+        <button id="btnFalsch" onclick="submitAnswer('Falsch')">Falsch</button>
+    </div>
+    <p id="feedback"></p>
+    <p id="details"></p>
+    <button id="btnWeiter" onclick="nextQuestion()">Weiter</button>
+    <button id="btnFeedback" onclick="showFeedback()">Begründung</button>
+</body>
+</html>

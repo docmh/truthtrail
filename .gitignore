@@ -1,0 +1,10 @@
+/.env
+/.node-version
+/.vscode
+/HintergrundLogo.png
+/LogoOriginal.png
+/node_modules
+/package-lock.json
+/selectionCounts.json
+/tmp
+/TTLogoOriginal.png
