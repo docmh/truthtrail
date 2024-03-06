@@ -1,5 +1,7 @@
 # TruthTrail
 
+![TruthTrail](./lowres.png)
+
 TruthTrail lets you perform endless new true/false-quizzes from a markdown file you provide. From the markdown file, the program will generate an always new statement and ask you to answer whether it is true or false. The program will then tell you if you were correct or not. 
 
 If you need, you could ask for a detailed explanation of the statement. 
