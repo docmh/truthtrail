@@ -1,3 +1,7 @@
+/*
+(c) 2024 by Prof. Dr. Mike Hammes, Germany, https://psymeets.ai
+*/
+
 let correctAnswer;
 let totalQuiz = 0;
 let correctQuiz = 0;

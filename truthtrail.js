@@ -1,3 +1,7 @@
+/*
+(c) 2024 by Prof. Dr. Mike Hammes, Germany, https://psymeets.ai
+*/
+
 const fs = require('fs');
 const express = require('express');
 const cors = require('cors');
