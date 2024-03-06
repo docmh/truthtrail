@@ -1,6 +1,6 @@
-# TruthTrial
+# TruthTrail
 
-TruthTrial lets you perform endless new true/false-quizzes from a markdown file you provide. From the markdown file, the program will generate an always new statement and ask you to answer whether it is true or false. The program will then tell you if you were correct or not. 
+TruthTrail lets you perform endless new true/false-quizzes from a markdown file you provide. From the markdown file, the program will generate an always new statement and ask you to answer whether it is true or false. The program will then tell you if you were correct or not. 
 
 If you need, you could ask for a detailed explanation of the statement. 
 
@@ -49,7 +49,7 @@ If you add a new section to the markdown file, the application will automaticall
 
 ## Installation 🛠️
 
-TruthTrial has a server and a client part. The server part is written in TypeScript and the client part is a simple HTML file with JavaScript. 
+TruthTrail has a server and a client part. The server part is written in TypeScript and the client part is a simple HTML file with JavaScript. 
 
 ### Installation from source 📦
 
@@ -61,7 +61,7 @@ npm install
 
 ### Secrets and API key 🔑
 
-TruthTrial uses the OpenAI API to generate new statements. You need to use a `.env` file to provide the API key. The `.env` file should look like this:
+TruthTrail uses the OpenAI API to generate new statements. You need to use a `.env` file to provide the API key. The `.env` file should look like this:
 
 ```env
 OPENAI_API_KEY="<your-api-key>"
@@ -78,7 +78,7 @@ The client part is a Progressive Web App (PWA). You can install it on your devic
 To start the server part, you need to set your working directory to the directory where the `truthtrail.js` file is located. Then you can start the server by running the following command in the terminal:
 
 ```bash
-node truthtrial
+node TruthTrail
 ```
 
 The server will then start and listen on port 8080. 
