@@ -2,7 +2,7 @@
 
 ![TruthTrail](./lowres.png)
 
-TruthTrail lets you perform endless new true/false-quizzes from a markdown file you provide. From the markdown file, the program will generate an always new statement and ask you to answer whether it is true or false. The program will then tell you if you were correct or not. 
+TruthTrail lets you perform endless new true/false-quizzes from a [markdown](https://www.markdownguide.org/basic-syntax/) file you provide. From the markdown file, the program will generate an always new statement and ask you to answer whether it is true or false. The program will then tell you if you were correct or not. 
 
 If you need, you could ask for a detailed explanation of the statement. 
 
@@ -28,7 +28,7 @@ You also can reset the points and start over.
 
 ### Markdown file 📄
 
-The markdown file can be formatted as any usual markdown file, but with one exception according to the sections: Do prevent to use one subsection without a headline at the beginning of a section if this section also contains a subsection with a headline. The application will otherwise oversee the first subsection and not include it in the selection process.
+The markdown file can be formatted as any usual [markdown](https://www.markdownguide.org/basic-syntax/) file, but with one exception according to the sections: Do prevent to use one subsection without a headline at the beginning of a section if this section also contains a subsection with a headline. The application will otherwise oversee the first subsection and not include it in the selection process.
 
 ✅ **Do:**
 ```markdown
@@ -47,7 +47,7 @@ Text for Subsection 1.2
 ```markdown
 # Section 1
 
-Text for Section 1 <-- prevent this, because the application will oversee it
+Text for Section 1 <-- ❌ prevent this, because the application will oversee it
 
 ## Subsection 1.1
 
@@ -58,7 +58,7 @@ Text for Subsection 1.1
 Text for Subsection 1.2
 ```
 
-The markdown file in the app is referenced to as `source.md` at the same level as the server file `truthtrail.js`. You can change the file path in the server file if you want to use another file. The file `source.md`, given with the source code, is a sample file with some sections and subsections about the field of Community Psychology.
+The markdown file in the app is referenced to as `source.md` at the same level as the server file `truthtrail.js`. You can change the file path in the server file if you want to use another file. The file [`source.md`](./source.md), given with the source code, is a sample file with some sections and subsections about the field of Community Psychology.
 
 ### Prompting the Professor 🧑‍🏫
 
