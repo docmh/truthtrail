@@ -49,7 +49,11 @@ Text for Subsection 1.1
 Text for Subsection 1.2
 ```
 
-The markdown file in the app is referenced to as `source.md` at the same level as the server file `truthtrail.js`. You can change the file path in the server file if you want to use another file.
+The markdown file in the app is referenced to as `source.md` at the same level as the server file `truthtrail.js`. You can change the file path in the server file if you want to use another file. The file, given with the source code is a sample file with some sections and subsections about the field of Community Psychology.
+
+### Prompting the Professor 🧑‍🏫
+
+In `truthtrail.js`, the prompts to instruct the AI to generate a new statement are defined. Currently, the prompts instruct the AI to behave like a professor of Community Psychology. You can change the prompt to instruct the AI to behave like a professor of another field.
 
 ## Installation 🛠️
 
